@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form Tags</h1>
+    <!-- <form action="serverfile" method="post"> -->
+    <form>
+        <!-- <p><input type="text" required autofocus maxlength="5"/></p> -->
+        <!-- <p><input type="text" value="Devesh" readonly disabled/></p> -->
+        <!-- <p><input type="text" value="Devesh"  size="50px"/></p> -->
+        <p><input type="text" placeholder="Enter your name" required/></p>
+        <button>Submit</button>
+        <input type="submit" value="submit">
+        <input type="image" src="Submit .png" width="100px" height="50px">
+    </form>
+    
+    <form >
+        <fieldset>
+       <legend> <h1>Login Form</h1></legend>
+        <p>
+            <input type="email" placeholder="Email address" required>
+        </p>
+        <p>
+            <input type="password" placeholder="Passwword" required>
+        </p>
+        <button>Login</button>
+        </fieldset>
+    </form>
+
+    <form >
+        <fieldset>
+        <legend> <h1>Registration Form</h1></legend>
+        <p>
+            <input type="text" placeholder="Enter your name" required>
+        </p>
+        <p>
+            <input type="email" placeholder="Email address" required>
+        </p>
+        <p>
+            <input type="password" placeholder="Passwword" required>
+        </p>
+        <p>
+            <input type="date">
+        </p>
+        <p>
+            <input type="checkbox" >MERN Stack
+            <input type="checkbox" checked >JAVA Full Stack
+            <input type="checkbox" >Python Full Stack
+        </p>
+        <p>
+            <input type="radio" name="batch">Morning Batch
+            <input type="radio" name="batch" checked>Evening Batch
+        </p>
+        <P>
+            <select multiple>
+                <option>B.E</option>
+                <OPtion selected>B.tech</OPtion>
+                <option>MBA</option>
+            </select>
+        </P>
+        <p>
+            <input type="file">
+        </p>
+        <p>
+            <input type="color">
+        </p>
+        <p>
+            Age <input type="number">
+        </p>
+        <p>
+            <textarea placeholder="About me"></textarea>
+        </p>
+        <p>
+            <select>
+                <optgroup label="India">
+                    <option>Delhi</option>
+                    <option>Bihar</option>
+                </optgroup>
+                <optgroup label="USA">
+                    <option>California</option>
+                    <option>NewYork</option>
+                </optgroup>
+            </select>
+        </p>
+        <P>
+            <label for="c1">Remember me</label><input type="checkbox">
+        </P>
+        <p>
+            <input list="country">
+            <datalist id="country">
+                <option value="India"></option>
+                <option value="USA"></option>
+                <option value="Canada"></option>
+                <option value="UK"></option>
+            </datalist>
+        </p>
+        <p>
+            <input type="reset">
+        </p>
+        <p>
+            <button>Register</button>
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>
